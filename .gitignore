@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /.bundle
 /.librarian
 /.projects
@@ -10,3 +11,18 @@
 /shared/*
 !/shared/README.md
 /vendor/gems/
+=======
+# http://www.gnu.org/software/automake
+
+Makefile.in
+
+# http://www.gnu.org/software/autoconf
+
+/autom4te.cache
+/aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+>>>>>>> be2ef57d55e23d907c79018bc41e02a7f66dc45e
