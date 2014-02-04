@@ -5,11 +5,11 @@ class people::rickyp72 {
   include skype
   #include iterm2
 <<<<<<< HEAD
-  include evernote
-  include firefox
-  include chrome
-  include googledrive
-  include dropbox
+  # include evernote
+  # include firefox
+  # include chrome
+  # include googledrive
+  # include dropbox
 =======
   # include evernote
   # include firefox
