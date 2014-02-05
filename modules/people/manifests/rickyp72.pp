@@ -5,8 +5,8 @@ class people::rickyp72 {
   include skype
   ## include iterm2
   # include evernote
-  # include firefox
-  # include chrome
+  include firefox
+  include chrome
   # include googledrive
   # include dropbox
   # include vmware_fusion
