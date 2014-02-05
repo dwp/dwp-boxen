@@ -18,4 +18,5 @@ class people::rickyp72 {
   class { 'osx::global::key_repeat_rate':
     rate => 400
   }
+
 }
