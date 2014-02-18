@@ -24,5 +24,5 @@ class people::rickyp72::loginitems (
 	#    path => '/Applications/Dropbox.app',
 	#    hidden => true,
 	#    require => Class['dropbox'],
-	}
+	#}
 }
