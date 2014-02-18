@@ -1,5 +1,7 @@
 class people::rickyp72 {
   notify { 'Hello Ricky': }
+  include people::rickyp72::params
+  include people::rickyp72::gems
   # include vagrant
   # include sublime_text_2
    include skype
