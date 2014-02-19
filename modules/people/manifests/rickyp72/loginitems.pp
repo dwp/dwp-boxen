@@ -12,12 +12,12 @@ class people::rickyp72::loginitems (
 	}
 		
 		
-	# osx_login_item { 'Bartender':
-	# 	name => 'Bartender',
-	# 	path => '/Applications/Bartender.app',
-	# 	hidden => true,
-	# 	require => Package['Bartender'],
-	# }	
+	osx_login_item { 'Terminal':
+		name => 'Terminal',
+		path => '/Applications/Terminal.app',
+		hidden => true,
+		require => Package['Terminal'],
+	}	
 		
 	# osx_login_item { 'Dropbox':
 	#    name => 'Dropbox',
