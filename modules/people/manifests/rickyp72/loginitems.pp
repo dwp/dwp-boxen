@@ -15,8 +15,8 @@ class people::rickyp72::loginitems (
 	osx_login_item { 'Terminal':
 		name => 'Terminal',
 		path => '/Applications/Terminal.app',
-		hidden => true,
-		require => Package['Terminal'],
+		hidden => false,
+		#require => Package['Terminal'],
 	}	
 		
 	# osx_login_item { 'Dropbox':
