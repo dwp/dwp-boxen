@@ -470,6 +470,7 @@ DEPENDENCIES
   ohmyzsh (= 1.0.0)
   onepassword (= 1.1.0)
   openssl (= 1.0.0)
+  osx (>= 0)
   osx (= 2.2.0)
   packer (= 1.1.0)
   phantomjs (= 2.0.2)
