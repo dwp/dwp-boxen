@@ -1,5 +1,5 @@
 class people::swhitlam {
-  notify { 'Hello Ricky': }
+  notify { 'Hello Stuart': }
   # include people::rickyp72::params
   # include people::rickyp72::gems
   # include people::rickyp72::loginitems
@@ -14,4 +14,5 @@ class people::swhitlam {
    include dropbox
   # include vmware_fusion
   # include virtualbox
+   include filezilla
 }

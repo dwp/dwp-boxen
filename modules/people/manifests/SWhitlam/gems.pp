@@ -1,7 +1,7 @@
-class people::rickyp72::gems (
-	$my_homedir   = $people::rickyp72::params::my_homedir,
-  	$my_sourcedir = $people::rickyp72::params::my_sourcedir,
-  	$my_username  = $people::rickyp72::params::my_username
+class people::SWhitlam::gems (
+	$my_homedir   = $people::SWhitlam::params::my_homedir,
+  	$my_sourcedir = $people::SWhitlam::params::my_sourcedir,
+  	$my_username  = $people::SWhitlam::params::my_username
 	){
 	
 	ruby::gem { 'bundler for 1.9.3':

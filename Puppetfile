@@ -60,6 +60,10 @@ github "xquartz",    "1.1.0"
 #github "vagrant"
 github "osx"
 
+##DWP Options Modules
+github "filezilla",		"1.0.0", :repo => "dieterdemeyer/puppet-filezilla"
+
+
 ## GDS Optional modules
 github "android",        "1.0.0"
 github "adium",          "1.2.0", :repo => "dieterdemeyer/puppet-adium"
