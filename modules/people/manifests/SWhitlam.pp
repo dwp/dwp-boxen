@@ -1,4 +1,4 @@
-class people::swhitlam.pp {
+class people::swhitlam {
   notify { 'Hello Ricky': }
   # include people::rickyp72::params
   # include people::rickyp72::gems
