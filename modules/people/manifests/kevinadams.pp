@@ -1,4 +1,4 @@
-class people::kadams {
+class people::kevinadams {
   notify { 'Hello Kev': }
   # include people::rickyp72::params
   # include people::rickyp72::gems
