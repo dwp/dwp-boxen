@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Our Boxen
-=======
-# HM_Dev_Boxem
->>>>>>> be2ef57d55e23d907c79018bc41e02a7f66dc45e
+# HM Dev Boxen
 
 This is a template Boxen project designed for your organization to fork and
 modify appropriately.
