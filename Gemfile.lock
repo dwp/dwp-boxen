@@ -3,10 +3,11 @@ GEM
   specs:
     addressable (2.3.5)
     ansi (1.4.3)
-    aws-sdk (1.22.1)
+    aws-sdk (1.67.0)
+      aws-sdk-v1 (= 1.67.0)
+    aws-sdk-v1 (1.67.0)
       json (~> 1.4)
-      nokogiri (>= 1.4.4, < 1.6.0)
-      uuidtools (~> 2.1)
+      nokogiri (~> 1)
     boxen (2.0.4)
       ansi (~> 1.4)
       hiera (~> 1.0)
@@ -23,17 +24,20 @@ GEM
     hiera (1.2.1)
       json_pure
     highline (1.6.20)
-    json (1.8.1)
+    json (1.8.6)
     json_pure (1.8.1)
     librarian-puppet (0.9.10)
       json
       thor (~> 0.15)
     metaclass (0.0.1)
+    mini_portile2 (2.8.8)
     mocha (0.14.0)
       metaclass (~> 0.0.1)
     multipart-post (1.2.0)
     net-ssh (2.6.5)
-    nokogiri (1.5.6)
+    nokogiri (1.15.7)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     octokit (2.3.1)
       sawyer (~> 0.5.1)
     open4 (1.3.0)
@@ -47,6 +51,7 @@ GEM
       rake
       rspec (>= 2.9.0)
       rspec-puppet (>= 0.1.1)
+    racc (1.8.1)
     rake (10.0.3)
     rbvmomi (1.6.0)
       builder
@@ -68,13 +73,12 @@ GEM
       faraday (~> 0.8, < 0.10)
     thor (0.18.1)
     trollop (2.0)
-    uuidtools (2.1.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-sdk (~> 1.21)
+  aws-sdk (~> 1.52, >= 1.52.0)
   boxen (~> 2.0.4)
   hiera (~> 1.1)
   librarian-puppet (~> 0.9.9)
@@ -86,3 +90,6 @@ DEPENDENCIES
   rake (= 10.0.3)
   rbvmomi
   rspec-puppet (= 0.1.6)
+
+BUNDLED WITH
+   2.1.4
